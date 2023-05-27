@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Online</title>
+    <link rel="stylesheet" href="asset/css/style.css">
+</head>
+<body class="" onload="load()">
+    <span class="loader"></span>
+    <div class="container" id="container">
+        <nav>
+            <div class="logo">
+                <p>ALAM</p>
+            </div>
+            <button class="btn_nav" onclick="toggle_nav()">
+                <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24"><path d="M4 6h16v2H4zm4 5h12v2H8zm5 5h7v2h-7z"></path></svg>    
+            </button>
+            <ul>
+                <li class="nav-link active">
+                    <a href="#container">Menu</a>
+                </li>
+                <li class="nav-link">
+                    <a href="#kursus">Kursus</a>
+                </li>
+                <li class="nav-link">
+                    <a href="#services">Layanan</a>
+                </li>
+                <li class="nav-link">
+                    <a href="#testimony">Testimoni</a>
+                </li>
+                <li class="nav-link">
+                    <a href="#contact">Kontak</a>
+                </li>
+                <button onclick="mode()" color="light" class="mode">
+                    <img id="mode-img" src="asset/img/sun.png" alt="sun">
+                </button>
+            </ul>
+        </nav>
+        <!-- menu -->
+        <div class="menu" id="menu">
+            <div class="menu-left">
+                <h1 class="fz-large">Pelajari keterampilan baru secara online dengan pendidik profesional</h1>
+                <p class="parag">Banyak keterampilan yang dapat kamu pelajari untuk menunjang masa depan</p>
+                <button class="btn-primary">Mulai belajar sekarang</button>
+            </div>
+            <div class="menu-right">
+                <img src="asset/img/menu.png" width="600px" alt="menu image">
+            </div>
+        </div>
+        <!-- achievement -->
+        <div class="achievement">
+            <h1 class="fz-large">Semua yang kami peroleh</h1>
+            <div>
+                <h1 class="f-blue" id="branch">0+</h1>
+                <p>Total cabang dibuka tahun lalu</p>
+            </div>
+            <div>
+                <h1 class="f-blue" id="students">0K</h1>
+                <p>Siswa baru dalam 30 hari terakhir</p>
+            </div>
+            <div>
+                <h1 class="f-blue" id="comment">0K</h1>
+                <p>Komentar yang dibuat oleh siswa</p>
+            </div>
+        </div>
+        <!-- kursus -->
+        <div class="kursus" id="kursus">
+            <h1 class="fz-large">Kursus yang dapat dipelajari</h1>
+            <div class="group">
+                <div class="kursus-item">
+                    <div class="img-box">
+                        <img src="asset/img/marketing.png" alt="marketing image">
+                    </div>
+                    <div>
+                        <h2 class="fz-small ">Marketing</h2>
+                        <p class="parag">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo eos quisquam, facere reprehenderit quas fugit provident deserunt corrupti!</p>
+                    </div>
+                </div>
+                <div class="kursus-item">
+                    <div class="img-box">
+                        <img src="asset/img/uiux.png" alt="ui ux image">
+                    </div>
+                    <div>
+                        <h2 class="fz-small ">UI UX</h2>
+                        <p class="parag">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo eos quisquam, facere reprehenderit quas fugit provident deserunt corrupti!</p>
+                    </div>
+                </div>
+                <div class="kursus-item">
+                    <div class="img-box">
+                        <img src="asset/img/software-anginering.jpg" alt="software anginering image">
+                    </div>
+                    <div>
+                        <h2 class="fz-small ">Software Enginering</h2>
+                        <p class="parag">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo eos quisquam, facere reprehenderit quas fugit provident deserunt corrupti!</p>
+                    </div>
+                </div>
+                <div class="kursus-item">
+                    <div class="img-box">
+                        <img src="asset/img/web-development.jpg" alt="web development image">
+                    </div>
+                    <div>
+                        <h2 class="fz-small ">Web Development</h2>
+                        <p class="parag">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo eos quisquam, facere reprehenderit quas fugit provident deserunt corrupti!</p>
+                    </div>
+                </div>
+            </div>
+            <button class="btn-primary">Lainnya</button>
+        </div>
+        <!-- services -->
+        <div class="services" id="services">
+            <div class="services-group">
+                <div class="service">
+                    <h1 class="fz-large" id="services_title">Layanan yang kami berikan kepada siswa</h1>
+                </div>
+                <div class="service">
+                    <h1 class="f-blue">01.</h1>
+                    <div>
+                        <h2 class="fz-medium">Kemudahan belajar</h2>
+                        <p class="parag">Lorem, ipsum dolor sit amet consectetur adipisicing elit. A repellat voluptatum maiores dignissimos officiis, deserunt eius nemo reiciendis ipsum</p>
+                        <p class="parag">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur placeat fugiat est iste magni.</p>
+                    </div>
+                </div>
+                <div class="service">
+                    <h1 class="f-blue">02.</h1>
+                    <div>
+                        <h2 class="fz-medium">Pengajar dari top insdustri</h2>
+                        <p class="parag">Lorem, ipsum dolor sit amet consectetur adipisicing elit. A repellat voluptatum maiores dignissimos officiis, deserunt eius nemo reiciendis ipsum</p>
+                        <p class="parag">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur placeat fugiat est iste magni.</p>
+                    </div>
+                </div>
+                <div class="service">
+                    <h1 class="f-blue">03.</h1>
+                    <div>
+                        <h2 class="fz-medium">Video yang sangat mudah untuk dimengerti</h2>
+                        <p class="parag">Lorem, ipsum dolor sit amet consectetur adipisicing elit. A repellat voluptatum maiores dignissimos officiis, deserunt eius nemo reiciendis ipsum</p>
+                        <p class="parag">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur placeat fugiat est iste magni.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- testimony -->
+        <div class="testimony" id="testimony">
+            <img src="asset/img/student.png" alt="student">
+            <div>
+                <h1 class="fz-large">Kata siswa</h1>
+                <div class="comment">
+                    <h1 style="font-size: 60px;">"</h1>
+                    <p class="parag" id="writer"></p>
+                </div>
+            </div>
+        </div>
+        <!-- contact us -->
+        <div class="contact" id="contact">
+            <h1 class="fz-large">Kontak kami</h1>
+            <div class="group">
+                <div class="contact-item">
+                    <img src="asset/img/gmail.png" width="80px" alt="gmail image">
+                    <h3 class="fz-small">alamonlearning.gmail.com</h3>
+                    <p class="parag">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="contact-item">
+                    <img src="asset/img/contact.png" width="80px" alt="contact image">
+                    <h3 class="fz-small"> +628 0098 4409 87</h3>
+                    <p class="parag">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="contact-item">
+                    <img src="asset/img/map.png" width="80px" alt="map image">
+                    <h3 class="fz-small">-etc elfd0081628</h3>
+                    <p class="parag">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+        </div>
+        <!-- footer -->
+        <footer>
+            <hr>
+            <div>
+                <div class="logo">
+                    <p>ALAM</p>
+                </div>
+                <p style="font-size: 18px;">© copyright all reserved by alam abdillah</p>
+                <ul>
+                    <li>kursus</li>
+                    <li>layanan</li>
+                    <li>about</li>
+                </ul>
+                <p style="font-size: 18px;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium asperiores minima.</p>
+            </div>
+        </footer>
+    </div>
+    <script src="asset/js/main.js"></script>
+</body>
+</html>
